@@ -1,0 +1,509 @@
+/*<<<-----------------------STYLES----------------------->>>*/
+/*<<<-----------------------GENERAL----------------------->>>*/
+*{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    background-image: url(../components/img/1920x1080-Fondo-de-pantalla-verde-y-azul\ \(1\).jpg);
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
+    background-attachment: fixed;
+}
+
+
+/*<<<-----------------------BOX----------------------->>>*/
+
+.container__box{
+    backdrop-filter: blur(100px);
+    padding-left: 50px; 
+    padding-right: 50px;
+    padding-bottom: 70px;
+    
+    margin:50px;
+    border-radius: 30px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+/*<<<-----------------------HEADER----------------------->>>*/
+
+.header{
+    display: flex;
+    align-items: center;
+    padding-top: 30px;
+
+}
+
+.header__icon{
+    width: 110px;
+    height: 40px;
+}
+
+.header__icon__calendar{
+    width: 70px;
+    height: 70px;
+}
+
+.header__information{
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+}
+
+span{
+    color: #c3dc00;
+    font-weight: 600;
+    margin-right: 5px;
+}
+
+.header__text{
+    display: flex;
+    color: #ffffff;
+    margin-left: 20px;
+    font-weight: 200;
+}
+
+
+/*<<<-----------------------TITLE----------------------->>>*/
+.title__hackaton{
+    line-height: 40px;
+}
+
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+    font-size: 60px;
+    color: #ffffff;
+    width: 100%;
+    font-weight: 900;
+}
+
+.title--second{
+    font-weight: 700;
+    font-size: 20px;
+    color: #c3dc00;
+    margin-bottom: 20px;
+}
+
+.container__invitation__letter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    margin: 15px 0px 15px 0px;
+}
+
+.invitation__letter{
+    text-align: center;
+    font-weight: 600;
+    color: #ffffff;
+    width: 830px;
+    line-height: 30px;
+}
+
+
+/*<<<-----------------------INFORMATION----------------------->>>*/
+
+.container__main{
+    display: flex;
+}
+
+.container__information{
+    display: flex;
+    background-color: #c3dc00;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0px 10px 0px;
+    margin: 5px 7px 50px 7px;
+    width: 100%;
+    border-radius: 25px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.container__icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 70%;
+    
+}
+
+.container__text__info{
+    color: #1B1F3B;
+    text-align: center;
+    line-height: 22px;
+    font-size: 15px;
+    font-weight: 200;
+    width: 100%;
+    padding: 10px;
+}
+
+/*<<<-----------------------BUTTON----------------------->>>*/
+.container__button{
+    display: flex;
+    justify-content: center;
+}
+
+.button__inscriptions{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    background-color: #1B1F3B;
+    color: #c3dc00 ;
+    border-radius: 15px;
+    font-weight: 600;
+    font-size: 18px;
+    border: none;
+    padding: 18px 32px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+}
+
+.button__inscriptions:hover{
+    background-color: #c3dc00;
+    color: #1B1F3B;
+    transition: 1ms;
+    cursor: pointer;
+    box-shadow: rgb(189, 240, 212) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+}
+
+
+/*<<<-----------------------FOOTER----------------------->>>*/
+
+.patrocinadores{
+    display: flex;
+    color: #ffffff;
+    font-size: 25px;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width:1025px){
+    /*<<<-----------------------HEADER----------------------->>>*/
+
+    .container__box{
+        padding-bottom: 60px;
+    }
+
+    .header__icon{
+        width: 80px;
+        height: 30px;
+    }
+
+    .header__icon__calendar{
+        width: 50px;
+        height: 50px;
+    }
+    
+
+    .header__information{
+    width: 80%;
+    }
+
+    .header__text{
+    font-size: 15px;
+    }
+
+    .title{
+        font-size: 55px;
+    }
+
+    .title--second{
+        font-size: 18px;
+    }
+
+    .container__invitation__letter{
+        font-size: 15px;
+    }
+
+    .button__inscriptions{
+        font-size: 15px;
+    }
+
+    .patrocinadores__text{
+        font-size: 20px;
+    }
+
+    .patrocinadores__icon{
+        width: 500px;
+        height: 100px;
+    }
+}
+
+@media (max-width:770px){
+    /*<<<-----------------------HEADER----------------------->>>*/
+    .container__box{
+        padding-bottom: 50px;
+    }
+
+    .header__icon{
+        width: 60px;
+        height: 20px;
+    }
+
+    .header__icon__calendar{
+        width: 30px;
+        height: 35px;
+    }
+
+    .header__information{
+    width: 80%;
+    }
+
+    .header__text{
+    font-size: 12px;
+    margin-left: 10px;
+    }
+
+    .title{
+        font-size: 45px;
+        line-height: 25px;
+    }
+
+    .title--second{
+        font-size: 16px;
+    }
+
+    .container__invitation__letter{
+        font-size: 13px;
+    }
+
+    .container__information{
+        flex-direction: column;
+    }
+
+    .container__text__info{
+        font-size: 13px;
+    }
+
+    .button__inscriptions{
+        font-size: 12px;
+    }
+
+    .patrocinadores__text{
+        font-size: 17px;
+    }
+
+    .patrocinadores__icon{
+        width: 350px;
+        height: 80px;
+    }
+}
+
+@media (max-width:430px){
+    /*<<<-----------------------HEADER----------------------->>>*/
+    .container__box{
+        padding: 0px 30px 30px 30px;
+    }
+
+    .header__icon{
+        width: 40px;
+        height: 15px;
+    }
+
+    .header__icon__calendar{
+        width: 19px;
+        height: 19px;
+    }
+
+    .header__information{
+    width: 100%;
+    }
+
+    .header__text{
+    font-size: 6px;
+    margin-left: 8px;
+    }
+
+    .title{
+        margin-top: 15px;
+        font-size: 22px;
+        line-height: 20px;
+    }
+
+    .title--second{
+        font-size: 8px;
+    }
+
+    .container__invitation__letter{
+        font-size: 10px;
+    }
+
+    .container__main{
+        display: block;
+        
+
+    }
+
+    .container__information{
+        
+        flex-direction: column;
+        margin: 5px 0px 10px 0px;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .container__icons{
+        width: 60%;
+        height: 80px;
+    }
+
+    .container__text__info{
+        font-size: 10px;
+        width: 80%;
+    }
+
+    .button__inscriptions{
+        margin-top: 10px;
+        font-size: 9px;
+    }
+
+    .patrocinadores{
+        flex-direction: column;
+    }
+
+    .patrocinadores__text{
+        font-size: 17px;
+    }
+
+    .patrocinadores__icon{
+        width: 320px;
+        height: 60px;
+    }
+}
+
+@media (max-width:375px){
+    /*<<<-----------------------HEADER----------------------->>>*/
+    .container__box{
+        padding: 0px 30px 20px 30px;
+        margin: 25px;
+    }
+
+    .header__icon{
+        width: 27px;
+        height: 10px;
+    }
+
+    .header__icon__calendar{
+        width: 18px;
+        height: 18px;
+    }
+
+    .header__text{
+    font-size: 6px;
+    margin-left: 8px;
+    }
+
+    .title{
+        margin-top: 15px;
+        font-size: 22px;
+        line-height: 15px;
+    }
+
+    .title--second{
+        font-size: 8px;
+    }
+
+    .container__invitation__letter{
+        font-size: 9px;
+        line-height: 5px;
+    }
+
+    .container__information{
+        flex-direction: column;
+        margin: 5px 0px 10px 0px;
+    }
+
+    .container__icons{
+        width: 60%;
+        height: 80px;
+    }
+
+    .button__inscriptions{
+        margin-top: 10px;
+        font-size: 8px;
+    }
+
+    .patrocinadores__text{
+        font-size: 15px;
+    }
+
+    .patrocinadores__icon{
+        width: 300px;
+        height: 60px;
+    }
+}
+
+@media (max-width:334px){
+    /*<<<-----------------------HEADER----------------------->>>*/
+    .container__box{
+        padding: 0px 30px 20px 30px;
+        margin: 15px;
+    }
+
+    .header__icon{
+        width: 27px;
+        height: 10px;
+    }
+
+    .header__icon__calendar{
+        width: 18px;
+        height: 18px;
+    }
+
+    .header__text{
+    font-size: 6px;
+    margin-left: 8px;
+    }
+
+    .title{
+        margin-top: 15px;
+        font-size: 22px;
+        line-height: 15px;
+    }
+
+    .title--second{
+        font-size: 8px;
+    }
+
+    .container__invitation__letter{
+        font-size: 7px;
+    }
+
+    .container__information{
+        flex-direction: column;
+        margin: 5px 0px 10px 0px;
+    }
+
+    .container__icons{
+        width: 50%;
+        height: 50px;
+    }
+
+    .container__text__info{
+        font-size: 9px;
+    }
+
+    .button__inscriptions{
+        margin-top: 10px;
+        font-size: 8px;
+    }
+
+    .patrocinadores__text{
+        font-size: 12px;
+    }
+
+    .patrocinadores__icon{
+        width: 260px;
+        height: 45px;
+    }
+}
